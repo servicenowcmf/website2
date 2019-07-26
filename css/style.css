@@ -1,0 +1,66 @@
+/* ================================= 
+        DEFAULT VALUES:
+
+        Font Family: Roboto
+
+==================================== */
+
+/* General CSS */
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+#nav1 {
+    background-color:#0000;
+    opacity: 0.75;
+    filter:(opacity=75);
+}
+
+
+/* Home */
+
+#home {
+    height: 100%;
+}
+
+#home-heading h1 {
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 2px black;
+    margin: 125px 0 20px 0px;
+    
+}
+
+
+#home-cover {
+    height: 100%;
+    background-image: url("../img/mktdevhomeimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .85;
+}
+
+#home-content-box{
+    width: 100%;
+    height: 100%;
+    display: table;
+
+}
+#home-content-box-inner{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
